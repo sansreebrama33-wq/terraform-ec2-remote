@@ -58,10 +58,7 @@
  - Infrastructure is planned and applied
  - AWS resources are provisioned
  - Terraform state is stored in S3
- - DynamoDB ensures safe locking during updates
-
-## Screenshots
- - 
+ - DynamoDB ensures safe locking during updates 
 
 ## Key Learnings
  - Basics of Infrastructure as Code (IaC) using Terraform
