@@ -26,17 +26,24 @@
                                DynamoDB Table
 
 ## Project Structure
- 
+
 terraform-ec2-remote/
 │
-├── main.tf          # EC2 instance + Security Group
-├── variables.tf     # Input variables
-├── outputs.tf       # Output values
-├── provider.tf      # AWS provider configuration
-├── backend.tf       # Remote state (S3 + DynamoDB)
-├── .gitignore       # Files to ignore in Git (state files, logs, etc.)
-└── README.md        # Project Overview
-
+├── main.tf
+├── provider.tf
+├── backend.tf
+├── variables.tf
+├── outputs.tf
+├── README.md
+├── .gitignore
+├── .terraform.lock.hcl
+│
+├── screenshots/
+│   ├── ec2-instance.png
+│   ├── terraform-execution.png
+│   ├── security-group.png
+│   ├── s3-bucket.png
+│   └── dynamo-db.png
 
 ## Tools & Cloud Services Used
  - Terraform
@@ -74,6 +81,16 @@ terraform-ec2-remote/
  - Basics of cloud infrastructure deployment using AWS
  - Importance of automation in Devops workflows.
 
-## S
+## Conclusion
+   This project demonstrates Infrastructure as Code using Terraform to automate the deployment of AWS resources,
+ including an EC2 instance with Security Groups and remote state management using S3 and DynamoDB. It follows best
+ practices for scalable and secure infrastructure, with version-controlled code and state locking for consistency.
+ Overall, it  provides a practical understanding of real-world DevOps workflows on AWS.
+
+
+
+
+
+
 
 
