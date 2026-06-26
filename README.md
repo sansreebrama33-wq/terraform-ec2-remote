@@ -25,20 +25,15 @@
                                      ↓ 
                                DynamoDB Table
 
-## Project Structure
-
-terraform-ec2-remote/
-       
--   main.tf
--  provider.tf
-- backend.tf
-- variables.tf
--  outputs.tf
--  README.md
--  .gitignore
-- terraform.lock.hcl
--  screenshots
-
+## Project Structure 
+- main.tf                 →   EC2 configuration
+- provider.tf             →   AWS provider setup
+- backend.tf              →   Remote state (S3 + DynamoDB)
+- variables.tf            →   Input variables
+- outputs.tf              →   Output values
+- README.md               →   Project overview
+- .terraform.lock.hcl     →   Provider version lock file
+- screenshots             →   Deployment proof
 
 ## Tools & Cloud Services Used
  - Terraform
