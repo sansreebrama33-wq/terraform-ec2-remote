@@ -27,23 +27,17 @@
 
 ## Project Structure
 
-terraform-ec2-remote/
-│
-├── main.tf
-├── provider.tf
-├── backend.tf
-├── variables.tf
-├── outputs.tf
-├── README.md
-├── .gitignore
-├── .terraform.lock.hcl
-│
-├── screenshots/
-│   ├── ec2-instance.png
-│   ├── terraform-execution.png
-│   ├── security-group.png
-│   ├── s3-bucket.png
-│   └── dynamo-db.png
+terraform-ec2-remote
+    main.tf
+  provider.tf
+  backend.tf
+  variables.tf
+   outputs.tf
+   README.md
+   .gitignore
+.terraform.lock.hcl
+   screenshots/
+
 
 ## Tools & Cloud Services Used
  - Terraform
