@@ -25,6 +25,17 @@
                                      ↓ 
                                DynamoDB Table
 
+## Project Structure
+ 
+terraform-ec2-remote/
+│
+├── main.tf          # EC2 instance + Security Group
+├── variables.tf     # Input variables
+├── outputs.tf       # Output values
+├── provider.tf      # AWS provider configuration
+├── backend.tf       # Remote state (S3 + DynamoDB)
+├── .gitignore       # Files to ignore in Git (state files, logs, etc.)
+└── README.md        # Project Overview
 
 
 ## Tools & Cloud Services Used
@@ -52,6 +63,9 @@
  - Terraform state is stored in S3
  - DynamoDB ensures safe locking during updates
 
+## Screenshots
+ - 
+
 ## Key Learnings
  - Basics of Infrastructure as Code (IaC) using Terraform
  - How to create AWS resources like EC2, Security Group, S3, DynamoDB
@@ -59,5 +73,7 @@
  - Learning state locking with DynamoDB 
  - Basics of cloud infrastructure deployment using AWS
  - Importance of automation in Devops workflows.
+
+## S
 
 
