@@ -27,7 +27,8 @@
 
 ## Project Structure
 
-terraform-ec2-remote
+terraform-ec2-remote/
+       |
 -   main.tf
 -  provider.tf
 - backend.tf
@@ -36,7 +37,7 @@ terraform-ec2-remote
 -  README.md
 -  .gitignore
 - terraform.lock.hcl
--  screenshots/
+-  screenshots
 
 
 ## Tools & Cloud Services Used
