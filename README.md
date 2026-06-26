@@ -28,7 +28,7 @@
 ## Project Structure
 
 terraform-ec2-remote/
-       |
+       
 -   main.tf
 -  provider.tf
 - backend.tf
